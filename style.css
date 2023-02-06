@@ -1,0 +1,12 @@
+:root{
+    --blue-color: #38bdf8;
+    --gray-background: #e2e8f0;
+    --yellow-color: #fcd34d;
+}
+
+body,
+body *{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
