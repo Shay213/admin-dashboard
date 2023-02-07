@@ -14,6 +14,7 @@
 
     <div class="container">
         <div class="sidebar">
+            <div class="sidebar-fixed">
             <div class="logo">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg>
                 <h2>Dashboard</h2>
@@ -31,6 +32,7 @@
                 <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>help-box</title><path d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" /></svg>Support</li>
                 <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>shield-check-outline</title><path d="M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9" /></svg>Privacy</li>
             </ul>
+            </div>
         </div>
 
         <div class="header">
@@ -41,29 +43,30 @@
                 </div>
                 <div class="profile">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bell-ring-outline</title><path d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" /></svg>
-                    <img class="avatar-small" src="./svg/Artboard 35.svg" alt="my-avatar">
+                    <img  src="./svg/Artboard 35.svg" alt="my-avatar" width="35px">
                     <h4>Morgan Oakley</h4>
                 </div>
             </div>
             <div class="bottom">
                 <div class="hi-message">
-                    <img src="./svg/Artboard 35.svg" alt="my-avatar">
-                    <p>Hi there,</p>
-                    <h3>Morgan Oakley (@morgan)</h3>
+                    <img src="./svg/Artboard 35.svg" alt="my-avatar" width="50px">
+                    <div>
+                        <p>Hi there,</p>
+                        <h3>Morgan Oakley (@morgan)</h3>
+                    </div>
                 </div>
                 <div class="btns">
-                    <ul>
-                        <button type="button">New</button>
-                        <button type="button">Upload</button>
-                        <button type="button">Share</button>
-                    </ul>
+                    <button type="button">New</button>
+                    <button type="button">Upload</button>
+                    <button type="button">Share</button>
                 </div>
             </div>
         </div>
 
         <div class="main-container">
+
+            <h4>Your Projects</h4>
             <div class="projects">
-                <h4>Your Projects</h4>
                 <div class="project">
                     <h5>Super Cool Project</h5>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dicta
@@ -77,20 +80,24 @@
                     </div>
                 </div>
             </div>
+            
+            <h4>Announcements</h4>
             <div class="side-content">
-                <h4>Announcements</h4>
-                <div class="announcements">
+                <div class="announcements side-card">
                     <div class="announcement">
                         <h6>Site Maintenance</h6>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim, labore inventore sapiente accusantium veritatis. Nulla, fugiat, recusandae.</p>
                     </div>      
                 </div>
+                
                 <h4>Trending</h4>
-                <div class="trending">
+                <div class="trending side-card">
                     <div class="trending-box">
-                        <img src="./svg/Artboard 14.svg" alt="avatar" class="small-avatar">
-                        <p class="username">@tegan</p>
-                        <p>World Peace Builder</p>
+                        <img src="./svg/Artboard 20.svg" alt="avatar" width="30px">
+                        <div>
+                            <p class="username">@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
                     </div>
                 </div>
             </div>
